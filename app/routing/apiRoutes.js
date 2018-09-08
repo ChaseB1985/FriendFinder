@@ -10,6 +10,8 @@ module.exports = function(app) {
 app.post('/api/friends', function(req, res){
 
   console.log(req.body)
+  //this is where the formula will go that will match the survey answers with the carebear answers
+  //in order to find the best match for a friend
   for(var i = 0; i < friends.length; i++){
     console.log(friends[i])
   }
